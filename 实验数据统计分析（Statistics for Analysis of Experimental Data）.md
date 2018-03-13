@@ -50,7 +50,7 @@ $s_{\bar x}=\frac{s}{\sqrt n}$（4）
 
 ## 正态分布（Normal Distribution）
 在实验中，有一种常见情况，就是要计算的样品平均值和样本标准误差，来推测观测背后的随机变量的概率特征，或者推测与其他随机变量的关系。要进行这种推测，就需要对实验检测中误差的概率分布的形态预设一个假设。大多数的统计方法做出的假设都是测试误差符合正态分布（normal probability distribution）。正态分布也称为**高斯分布（Gaussian Distribution）**。图1a 即一个正态分布的概率分布函数（probability distribution function，缩写为 PDF）图形，其中的随机变量为 x，均值$\sigma$为0，单位标准偏差（standard deviation of unity），即$\eta$ 为1。对于一个给定的 x 的值，在 y 方向上的值就是函数 f(x)，即概率密度。正态分布的概率密度函数是对称的（symmetric），其中心位置就在 x 的均值位置，这个函数覆盖了从负无穷到正无穷的范围。通过定义可知，概率密度函数下覆盖的面积总和应该是单位1。对于一个正态分布的概率密度分布函数来说，有 68% 的区域在$\eta\pm\delta$范围内，这就意味着测量值有68%的概率落在距离均值一个标准偏差的范围内。在实践中，就是实验者可以预计大约有2/3的样本的观测结果会在这个范围内。$\eta\pm 2\delta$的范围覆盖了曲线下 95%的范围，而$\eta\pm 3\delta$则覆盖了整个概率的 99.7%。对正态分布进行观察的另一个手段就是使用累积分布函数（cumulative distribution function，缩写为 CDF），如图1b 所示。对于一个给定的 x 值，y 轴方向的函数值 F(x)是随机变量小于等于 x 的累积概率。
-![](media/15202680359263/15209053030481.jpg)
+![](https://raw.githubusercontent.com/Kivy-CN/Statistics-for-Analysis-of-Experimental-Data-in-Chinese/master/img/fig1.jpg)
 图1-a                                      图1-b
 上图中，a 是概率分布函数图，b 是累积分布函数图，随机变量为 x，均值$\eta$为0，$\sigma$为单位标准偏差。
 
